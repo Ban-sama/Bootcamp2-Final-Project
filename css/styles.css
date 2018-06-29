@@ -1,0 +1,74 @@
+/* Hero */
+#hero-section {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #993366;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#hero-section h2 {
+    margin-bottom: 15px;
+    color: #d9d9d9;
+}
+
+/* Navbar */
+.navbar {
+    float: left;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Education */
+#education-section h2{
+    display: flex;
+    justify-content: center;
+}
+
+/* About */
+#about-section img {
+    width: 85%;
+}
+
+#about-section p {
+    padding-left: 0;
+}
+
+/* Footer */
+.centered {
+    margin: 0 auto;
+}
+
+footer section {
+    min-height: 100px;
+    width: calc(100% / 3);
+}
+    
+.i-container {
+    text-align: center;
+    width: 108px;
+}
+    
+.icon {
+    font-size: 36px;
+    color: #d9d9d9;
+}
+
+.pull-left {
+    float: left;
+}
